@@ -8,7 +8,7 @@ intents=discord.Intents.all()
 intents.members = True
 client = commands.Bot(command_prefix ='!', intents=intents) 
 
-TOKEN = "MTA0OTQ2MzUxODY1MjU1MTMyOQ.GkQiQb.DvX-P42HbfrJn5KrXeljNVlSRHghJcSpfbwRLw" 
+TOKEN = "TOKEN" 
 
 @client.event
 async def on_ready():
